@@ -1,0 +1,27 @@
+.intro {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 75px;
+}
+
+.child {
+    position: relative;
+    height: 100%;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 75px;
+    color: white;
+
+}
+
+.smallchild {
+    position: relative;
+    height: 100%;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: white;
+    
+}
