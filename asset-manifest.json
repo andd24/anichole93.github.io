@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/anichole.github.io/static/css/main.def00d12.css",
+    "main.js": "/anichole.github.io/static/js/main.1ce0fa83.js",
+    "static/js/787.8227b0a6.chunk.js": "/anichole.github.io/static/js/787.8227b0a6.chunk.js",
+    "index.html": "/anichole.github.io/index.html",
+    "main.def00d12.css.map": "/anichole.github.io/static/css/main.def00d12.css.map",
+    "main.1ce0fa83.js.map": "/anichole.github.io/static/js/main.1ce0fa83.js.map",
+    "787.8227b0a6.chunk.js.map": "/anichole.github.io/static/js/787.8227b0a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.def00d12.css",
+    "static/js/main.1ce0fa83.js"
+  ]
+}
