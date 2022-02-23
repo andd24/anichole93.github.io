@@ -12,13 +12,13 @@ export const ApplicationViews = () => {
             <Route exact path="/">
                 <Intro />
             </Route>
-            <Route path="/about">
+            <Route exact path="/about">
                 <AboutMe />
             </Route>
-            <Route path="/projects">
+            <Route exact path="/projects">
                 <Projects />
             </Route>
-            <Route path="/contact">
+            <Route exact path="/contact">
                 <Contact />
             </Route>
         </>
