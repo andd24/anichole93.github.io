@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
 import { MyPage } from './components/MyPage';
 
+
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>

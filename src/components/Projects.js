@@ -4,8 +4,8 @@ export const Projects = () => {
     return (
         <>
         <section className="projects">
-            <h1>Projects</h1>  
-            <h3>coming soon...  </h3>
+            <h1>projects</h1>  
+            <h3>loading...  </h3>
         </section>
 
         </>

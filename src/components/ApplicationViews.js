@@ -1,6 +1,7 @@
 import React from "react"
 import { Route } from "react-router-dom"
 import { AboutMe } from "./aboutme"
+import { Contact } from "./Contact"
 import { Intro } from "./intro"
 import { Projects } from "./Projects"
 
@@ -17,7 +18,9 @@ export const ApplicationViews = () => {
             <Route path="/projects">
                 <Projects />
             </Route>
-            
+            <Route path="/contact">
+                <Contact />
+            </Route>
         </>
     )
 }

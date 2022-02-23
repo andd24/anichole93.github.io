@@ -14,6 +14,8 @@ export const Footer = () => {
         <a href="https://icons8.com/icon/12584/python">Python icon by Icons8</a>
         <a href="https://icons8.com/icon/qULYrKvr-AFH/django">Django icon by Icons8</a>
         <a href="https://icons8.com/icon/102597/sql">SQL icon by Icons8</a>
+        <a href="https://icons8.com/icon/12599/github">GitHub icon by Icons8</a>
+        <a href="https://icons8.com/icon/85044/linkedin">LinkedIn icon by Icons8</a>
         </div>
         </>
         
