@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/anichole.github.io/static/css/main.def00d12.css",
-    "main.js": "/anichole.github.io/static/js/main.1ce0fa83.js",
-    "static/js/787.8227b0a6.chunk.js": "/anichole.github.io/static/js/787.8227b0a6.chunk.js",
-    "index.html": "/anichole.github.io/index.html",
-    "main.def00d12.css.map": "/anichole.github.io/static/css/main.def00d12.css.map",
-    "main.1ce0fa83.js.map": "/anichole.github.io/static/js/main.1ce0fa83.js.map",
-    "787.8227b0a6.chunk.js.map": "/anichole.github.io/static/js/787.8227b0a6.chunk.js.map"
+    "main.css": "/static/css/main.def00d12.css",
+    "main.js": "/static/js/main.c85f6e58.js",
+    "static/js/787.8227b0a6.chunk.js": "/static/js/787.8227b0a6.chunk.js",
+    "index.html": "/index.html",
+    "main.def00d12.css.map": "/static/css/main.def00d12.css.map",
+    "main.c85f6e58.js.map": "/static/js/main.c85f6e58.js.map",
+    "787.8227b0a6.chunk.js.map": "/static/js/787.8227b0a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.def00d12.css",
-    "static/js/main.1ce0fa83.js"
+    "static/js/main.c85f6e58.js"
   ]
 }
