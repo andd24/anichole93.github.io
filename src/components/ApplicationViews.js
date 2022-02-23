@@ -9,7 +9,7 @@ import { Projects } from "./Projects"
 export const ApplicationViews = () => {
     return (
         <>
-            <Route exact path="">
+            <Route exact path="/">
                 <Intro />
             </Route>
             <Route exact path="/about">
