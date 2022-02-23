@@ -78,3 +78,25 @@
 .icon {
     padding: 10px;
 }
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.field {
+    margin: 5px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.button {
+    max-width: 50px;
+    margin: 5px;
+}
+
+.footer {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 10px;
+    color: white;
+    margin: 25px;
+}

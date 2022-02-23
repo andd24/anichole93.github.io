@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { useHistory } from "react-router-dom"
 import emailjs from 'emailjs-com'
 import "./styles.css"
 import { send } from "emailjs-com"
@@ -10,6 +11,7 @@ export const Contact = () => {
         message: '',
         reply_to: '',
       })
+    const history = useHistory()
 
     const handleChange = (e) => {
         setToSend({ ...toSend, [e.target.name]: e.target.value })
@@ -26,9 +28,17 @@ export const Contact = () => {
           )
             .then((response) => {
               console.log('SUCCESS!', response.status, response.text)
+              window.alert("Email sent")
             })
+            .then(setToSend({        
+                from_name: '',
+                to_name: 'Ashley',
+                message: '',
+                reply_to: ''}))
+            .then(history.push('/contact'))
             .catch((err) => {
               console.log('FAILED...', err)
+              window.alert("Send failed")
             })
     }
 
@@ -36,8 +46,9 @@ export const Contact = () => {
         <>
         <section className="contact">
             <h1>contact</h1>  
-            <form onSubmit={onSubmit}>
+            <form className="form" onSubmit={onSubmit}>
                 <input
+                    className="field"
                     type='text'
                     name='from_name'
                     placeholder='Your name'
@@ -45,6 +56,7 @@ export const Contact = () => {
                     onChange={handleChange}
                 />
                 <input
+                    className="field"
                     type='text'
                     name='reply_to'
                     placeholder='Your email'
@@ -58,14 +70,15 @@ export const Contact = () => {
                     value={toSend.to_name}
                     onChange={handleChange}
                 /> */}
-                <input
+                <textarea
+                    className="field"
                     type='text'
                     name='message'
                     placeholder='Your message'
                     value={toSend.message}
                     onChange={handleChange}
                 />
-                <button type="submit">Send</button>
+                <button className="button" type="submit">Send</button>
             </form>
 
             <div></div>
