@@ -1,5 +1,6 @@
 import React from "react";
 import { Route } from "react-router-dom";
+import { NavBar } from "./NavBar";
 import { ApplicationViews } from "./ApplicationViews";
 
 export const MyPage = () => (
@@ -8,7 +9,7 @@ export const MyPage = () => (
       render={() => {
           return (
             <>
-              {/* <NavBar />  */}
+              <NavBar /> 
               <ApplicationViews />
             
             </>

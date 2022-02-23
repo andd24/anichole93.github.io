@@ -25,3 +25,33 @@
     color: white;
     
 }
+
+.a:hover {
+    color: white;
+}
+
+.aboutme {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 200px;
+    background: white;
+    border-style: double;
+    font-family: 'Roboto Mono', monospace;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.projects {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 200px;
+    background: white;
+    border-style: double;
+    font-family: 'Roboto Mono', monospace;
+    padding: 25px;
+}
