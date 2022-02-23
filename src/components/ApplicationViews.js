@@ -9,16 +9,16 @@ import { Projects } from "./Projects"
 export const ApplicationViews = () => {
     return (
         <>
-            <Route exact path="/">
+            <Route path="/">
                 <Intro />
             </Route>
-            <Route path="/about">
+            <Route exact path="/about">
                 <AboutMe />
             </Route>
-            <Route path="/projects">
+            <Route exact path="/projects">
                 <Projects />
             </Route>
-            <Route path="/contact">
+            <Route exact path="/contact">
                 <Contact />
             </Route>
         </>
