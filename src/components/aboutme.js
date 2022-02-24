@@ -2,20 +2,19 @@ import { useEffect, useRef } from "react"
 import "./styles.css"
 
 export const AboutMe = () => {
-    const view = useRef()
+    // const view = useRef()
 
-    const scrollToBottom = () => {
-        view.current?.scrollIntoView({ behavior: "smooth" })
-      }
+    // const scrollToBottom = () => {
+    //     view.current?.scrollIntoView({ behavior: "smooth" })
+    //   }
     
-    useEffect(() => {
-        scrollToBottom()
-    }, []);
-    
+    // useEffect(() => {
+    //     scrollToBottom()
+    // }, [])
     
     return (
         <>
-        <section ref={view} className="aboutme">
+        <section className="aboutme">
             <h1>about me</h1>  
             <div></div>
             <div></div>
