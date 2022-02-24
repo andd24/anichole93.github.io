@@ -9,18 +9,18 @@ import { Projects } from "./Projects"
 export const ApplicationViews = () => {
     return (
         <>
-            <Route exact path="/">
-                <Intro />
-            </Route>
-            <Route exact path="/about">
-                <AboutMe />
-            </Route>
-            <Route exact path="/projects">
-                <Projects />
-            </Route>
-            <Route exact path="/contact">
-                <Contact />
-            </Route>
+            <Route path="/" exact component={Intro} />
+                {/* <Intro />
+            </Route> */}
+            <Route path="about" exact component={AboutMe} />
+                {/* <AboutMe />
+            </Route> */}
+            <Route path="projects" exact component={Projects} />
+                {/* <Projects />
+            </Route> */}
+            <Route path="contact" exact component={Contact} />
+                {/* <Contact />
+            </Route> */}
         </>
     )
 }
