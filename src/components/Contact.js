@@ -45,7 +45,7 @@ export const Contact = () => {
     return (
         <>
         <section className="contact">
-            <h1>contact</h1>  
+            <h1>contact me</h1>  
             <form className="form" onSubmit={onSubmit}>
                 <input
                     className="field"

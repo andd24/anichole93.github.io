@@ -12,13 +12,13 @@ export const ApplicationViews = () => {
             <Route path="/" exact component={Intro} />
                 {/* <Intro />
             </Route> */}
-            <Route path="about" exact component={AboutMe} />
+            <Route path="/about" exact component={AboutMe} />
                 {/* <AboutMe />
             </Route> */}
-            <Route path="projects" exact component={Projects} />
+            <Route path="/projects" exact component={Projects} />
                 {/* <Projects />
             </Route> */}
-            <Route path="contact" exact component={Contact} />
+            <Route path="/contact" exact component={Contact} />
                 {/* <Contact />
             </Route> */}
         </>
