@@ -31,7 +31,6 @@
 }
 
 .aboutme {
-    position: relative;
     min-width: fit-content;
     height: 50%;
     display: flex;
