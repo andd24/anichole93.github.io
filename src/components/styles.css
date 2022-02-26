@@ -59,7 +59,6 @@
 }
 
 .contact {
-    position: relative;
     height: 50%;
     min-width: fit-content;
     display: flex;
